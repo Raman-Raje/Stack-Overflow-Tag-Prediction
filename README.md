@@ -3,6 +3,8 @@ Objective : To predict as many as tags possible with high Precision and Recall.
 
 Description: The dataset was obtained from kaggle. The given problem is multi-label classification problem. The dataset contains features such as Id, Title, Body and Tags. Data preprocessing and cleaning was done to remove html tags and hyperlinks. Micro-Averaged F1-Score was used as performance metric as mentioned on Kaggle.
 
+Data: https://www.kaggle.com/c/facebook-recruiting-iii-keyword-extraction/data 
+
 Case Study Flow:
 =================
 1. Objective of this case study was to Suggest the tags based on the content that was there in the question posted on Stackoverflow.
