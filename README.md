@@ -13,5 +13,5 @@ Case Study Flow:
 4. On an avg. 2.88 tags were present perquestion.
 5. We are considering only 5500 tags which covers 99.04 % of questions
 6. Various machine learning models were tried and tested with OvR classifier to get the best results.
-7. Logistic regression with TFIDF gave best accuracy of 0.0819 trained on 1M data pts.
+7. Logistic regression with TFIDF gave best accuracy of 0.236 trained on 1M data pts.
 8. Model accuracy degraded as we reduced the number of data points which is as expected
