@@ -1,11 +1,19 @@
 # Stack-Overflow-Tag-Prediction
 ![stackoverflow](/images/stackoverflow.png)
 
-Objective : To predict as many as tags possible with high Precision and Recall. 
+## Objective:
+To predict as many as tags possible with high Precision and Recall. 
 
-Description: The dataset was obtained from kaggle. The given problem is multi-label classification problem. The dataset contains features such as Id, Title, Body and Tags. Data preprocessing and cleaning was done to remove html tags and hyperlinks. Micro-Averaged F1-Score was used as performance metric as mentioned on Kaggle.
+## Description: 
+The dataset was obtained from kaggle. The given problem is multi-label classification problem. The dataset contains features such as Id, Title, Body and Tags. Data preprocessing and cleaning was done to remove html tags and hyperlinks. Micro-Averaged F1-Score was used as performance metric as mentioned on Kaggle.
 
 Data: https://www.kaggle.com/c/facebook-recruiting-iii-keyword-extraction/data 
+
+## Features:
+
+- As a part of feature engineering, a new named as question was created as a combination of title + body
+- Code,HTML Tags and Stopwords were remmoved from body as part of data cleaning.
+
 
 ## Case Study Flow:
 
@@ -17,11 +25,6 @@ Data: https://www.kaggle.com/c/facebook-recruiting-iii-keyword-extraction/data
 6. Various machine learning models were tried and tested with OvR classifier to get the best results.
 7. Logistic regression with TFIDF gave best accuracy of 0.236 trained on 1M data pts.
 8. Model accuracy degraded as we reduced the number of data points which is as expected
-
-## Features:
-
-- As a part of feature engineering, a new named as question was created as a combination of title + body
-- Code,HTML Tags and Stopwords were remmoved from body as part of data cleaning.
 
 ## Results:
 
